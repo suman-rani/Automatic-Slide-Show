@@ -1,0 +1,58 @@
+h2{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: goldenrod;
+    background-color: blueviolet;
+}
+
+#slides{
+    position: relative;
+    height: 300px;
+    padding: 30px;
+    margin: 30px;
+    width: 50%;  
+    list-style-type: none;
+}
+
+.slide  {
+    font-size: 40px;
+    color: blue; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    opacity: 0;
+    z-index: 1;
+}
+
+.slide:nth-of-type(1) {
+    background-color: rgb(144, 123, 163);
+}
+.slide:nth-of-type(2) {
+    background-color: rgb(144, 123, 163);
+}
+.slide:nth-of-type(3) {
+    background-color: rgb(144, 123, 163);
+}
+.slide:nth-of-type(4) {
+    background-color: rgb(144, 123, 163);
+}
+.slide:nth-of-type(5) {
+    background-color: rgb(144, 123, 163);
+}
+
+img {
+    position: absolute;
+    display: block;
+    margin-left: 500px;
+    margin-right: 500px;
+    width: 80%;
+    height: 500px;
+   
+}
+
+  .showing{
+    opacity: 1.0;
+    
+}
+
